@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.iubgdfy.video"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name="com.iubgdfy.video.activity.VideoPlayActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"
+            />
+        <activity
+            android:name="com.iubgdfy.video.activity.VideoRecordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"
+            />
+        <activity
+            android:name="com.iubgdfy.video.activity.VideoChooseActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.iubgdfy.video.activity.VideoEditActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.iubgdfy.video.activity.VideoPublishActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.iubgdfy.video.activity.VideoReportActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
+            />
+        <activity
+            android:name="com.iubgdfy.video.activity.VideoGoodsAddActivity"
+            android:screenOrientation="portrait"
+            />
+    </application>
+
+</manifest>

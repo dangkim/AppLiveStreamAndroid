@@ -1,0 +1,32 @@
+ext {
+    android = [
+            compileSdkVersion: 27,
+            buildToolsVersion: "27.0.3",
+            minSdkVersion    : 21,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+            versionName      : "2.0"
+    ]
+
+
+    manifestPlaceholders = [
+             serverHost       : "http://slqyfmr.cn",
+
+            //极光推送 IM
+            jpushAppKey      : "d6080087fd348c40b432ce7c",
+
+            //腾讯地图
+            txMapAppKey      : "",
+            txMapAppSecret   : "",
+            //腾讯bugly
+            buglyAppId       : "da308e7d5a",
+            //百度语音识别
+            baiduAppId       : "17593197",
+            baiduAppKey      : "s5xEyEdLyqOLbXGIkdrvpj7G",
+            baiduAppSecretKey: "NuGwGN8944ArAgAf2xZyhOy8HkNF8Crs",
+            //友盟统计
+            umengAppKey      : "5db1093d570df3b928000295"
+
+    ]
+
+}
