@@ -10,7 +10,7 @@ ext {
 
 
     manifestPlaceholders = [
-             serverHost       : "http://slqyfmr.cn",
+            serverHost       : "http://192.168.1.2:8012/LiveStream",
 
             //极光推送 IM
             jpushAppKey      : "d6080087fd348c40b432ce7c",

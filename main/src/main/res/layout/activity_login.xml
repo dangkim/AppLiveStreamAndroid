@@ -127,7 +127,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center_vertical|right"
                 android:minWidth="45dp"
-                android:text="+86"
+                android:text="+84"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 />

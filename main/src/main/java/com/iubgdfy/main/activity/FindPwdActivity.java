@@ -73,7 +73,7 @@ public class FindPwdActivity extends AbsActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                if (!TextUtils.isEmpty(s) && s.length() == 11) {
+                if (!TextUtils.isEmpty(s) && s.length() == 9) {
                     mBtnCode.setEnabled(true);
                 } else {
                     mBtnCode.setEnabled(false);
