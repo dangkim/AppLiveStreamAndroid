@@ -43,11 +43,11 @@ public class Constants {
     public static final String SHARE_QR_CODE_FILE = "shareQrCodeFile.png";
     public static final String ANCHOR = "anchor";
     public static final String FOLLOW = "follow";
-    public static final String DIAMONDS = "钻石";
-    public static final String VOTES = "映票";
-    public static final String PAY_ALI_NOT_ENABLE = "支付宝未接入";
-    public static final String PAY_WX_NOT_ENABLE = "微信支付未接入";
-    public static final String PAY_ALL_NOT_ENABLE = "未开启支付";
+    public static final String DIAMONDS = "Diamonds";
+    public static final String VOTES = "Screening ticket";
+    public static final String PAY_ALI_NOT_ENABLE = "Alipay is not connected";
+    public static final String PAY_WX_NOT_ENABLE = "WeChat payment is not connected";
+    public static final String PAY_ALL_NOT_ENABLE = "Payment is not enabled";
     public static final String PAY_TYPE_ALI = "ali";
     public static final String PAY_TYPE_WX = "wx";
     public static final String PAY_BUY_COIN_ALI = "Charge.getAliOrder";
@@ -205,6 +205,7 @@ public class Constants {
     public static final String HAVE_STORE = "haveStore";
 
 
+    //Money
     public static final String MONEY_SIGN = "¥";
 
 
