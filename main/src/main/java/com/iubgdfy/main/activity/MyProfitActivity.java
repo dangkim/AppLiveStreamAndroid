@@ -41,7 +41,7 @@ public class MyProfitActivity extends AbsActivity implements View.OnClickListene
     private TextView mTip;//温馨提示
     private EditText mEdit;
     private int mRate;
-    private long mMaxCanMoney;//可提取映票数
+    private long mMaxCanMoney;//The number of tickets that can be withdrawn
     private View mChooseTip;
     private View mAccountGroup;
     private ImageView mAccountIcon;
@@ -49,6 +49,8 @@ public class MyProfitActivity extends AbsActivity implements View.OnClickListene
     private String mAccountID;
     private String mVotesName;
     private View mBtnCash;
+
+    private double mCovertMoney = 3.5;
 
     @Override
     protected int getLayoutId() {
@@ -82,11 +84,11 @@ public class MyProfitActivity extends AbsActivity implements View.OnClickListene
                         mEdit.setSelection(s.length());
                     }
                     if (mRate != 0) {
-                        mMoney.setText("￥" + (i / mRate));
+                        mMoney.setText(((i / mRate) * mCovertMoney) + "K đ");
                     }
                     mBtnCash.setEnabled(true);
                 } else {
-                    mMoney.setText("￥");
+                    mMoney.setText("đ");
                     mBtnCash.setEnabled(false);
                 }
             }

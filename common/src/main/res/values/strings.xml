@@ -1,28 +1,28 @@
 <resources>
 
-    <string name="refresh_header_pulling">Pull down to refresh</string>
-    <string name="refresh_header_refreshing">Refreshing</string>
-    <string name="refresh_header_loading">Loading</string>
-    <string name="refresh_header_release">Release immediately refresh</string>
-    <string name="refresh_header_finish">Refresh completed</string>
-    <string name="refresh_header_failed">Refresh failed</string>
-    <string name="refresh_header_update">Last update M-d HH:mm</string>
+    <string name="refresh_header_pulling">下拉可以刷新</string>
+    <string name="refresh_header_refreshing">正在刷新</string>
+    <string name="refresh_header_loading">正在加载</string>
+    <string name="refresh_header_release">释放立即刷新</string>
+    <string name="refresh_header_finish">刷新完成</string>
+    <string name="refresh_header_failed">刷新失败</string>
+    <string name="refresh_header_update">上次更新 M-d HH:mm</string>
 
-    <string name="refresh_footer_pulling">Pull up to load more</string>
-    <string name="refresh_footer_release"> Release and load immediately</string>
-    <string name="refresh_footer_loading">Loading</string>
-    <string name="refresh_footer_refreshing">refreshing</string>
-    <string name="refresh_footer_finish">loading complete</string>
-    <string name="refresh_footer_failed">Failed to load</string>
-    <string name="refresh_footer_nothing">No more data</string>
+    <string name="refresh_footer_pulling">上拉加载更多</string>
+    <string name="refresh_footer_release">释放立即加载</string>
+    <string name="refresh_footer_loading">正在加载</string>
+    <string name="refresh_footer_refreshing">正在刷新</string>
+    <string name="refresh_footer_finish">加载完成</string>
+    <string name="refresh_footer_failed">加载失败</string>
+    <string name="refresh_footer_nothing">没有更多数据了</string>
 
 
-    <string name="black">Pull black</string>
-    <string name="black_ing">Unblock blacking</string>
-    <string name="bonus_sign">Sign in now</string>
-    <string name="bonus_sign_1">Consecutive sign-in</string>
-    <string name="bonus_day">Day</string>
-    <string name="beauty_init_error">The beauty initialization is abnormal and cannot be used</string>
+    <string name="black">拉黑</string>
+    <string name="black_ing">解除拉黑</string>
+    <string name="bonus_sign">立即签到</string>
+    <string name="bonus_sign_1">已连续签到</string>
+    <string name="bonus_day">天</string>
+    <string name="beauty_init_error">美颜初始化异常，无法使用</string>
 
     <string name="cash">Withdrawal account</string>
     <string name="cash_account_empty">You have not set up a withdrawal account yet</string>
